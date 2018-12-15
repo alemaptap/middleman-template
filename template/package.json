@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "development": "parcel watch source/assets/stylesheets/*.scss source/assets/javascripts/*.js",
+    "build": "parcel build source/assets/stylesheets/*.scss source/assets/javascripts/*.js"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.4.2",
+    "bourbon": "^5.1.0",
+    "bourbon-neat": "^3.0.0",
+    "parcel-bundler": "^1.10.3",
+    "postcss-modules": "^1.4.1",
+    "sass": "^1.15.2"
+  },
+  "devDependencies": {
+    "stylelint": "^9.9.0",
+    "stylelint-order": "^2.0.0",
+    "stylelint-scss": "^3.4.1"
+  }
+}

@@ -1,0 +1,15 @@
+// @import "bourbon";
+@import "../../../node_modules/bourbon/core/bourbon";
+// @import "neat";
+// @import "../../../node_modules/bourbon-neat/core/neat";
+//
+@import "reset/normalize";
+//
+// @import "base/base";
+
+html {
+  color: green;
+  display: grid;
+  display: flex;
+  font-family: $font-stack-system;
+}
